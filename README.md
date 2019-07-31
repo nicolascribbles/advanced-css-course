@@ -1,3 +1,20 @@
+#Nicola Reyes
+ ## Udemy Advanced CSS Course
+
+# Natours
+
+## Section 1
+- In section 1, I added the github repository and configured my files to the Vagrant Box
+
+## Section 2
+- In Section 2, I began working on the project with all of the starter files (1 hr 45 minutes)
+    - Created Section Intro and header
+    - Covered reset styles and the order of CSS structure ( it should match the html document order )
+    - Covered CSS Animations and creating them from scratch using keyframes
+    - Built a complex animated button using pseudo-elements and pseudo-classes
+
+##
+
 # Course Material and FAQ for my Advanced CSS Course
 
 This repo contains starter files and the finished project files for all the projects contained in the course.
