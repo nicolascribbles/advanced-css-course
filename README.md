@@ -13,6 +13,8 @@
     - Covered CSS Animations and creating them from scratch using keyframes
     - Built a complex animated button using pseudo-elements and pseudo-classes
 
+## Section 3
+- Have not begun yet
 ##
 
 # Course Material and FAQ for my Advanced CSS Course
