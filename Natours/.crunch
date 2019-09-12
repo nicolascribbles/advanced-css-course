@@ -1,0 +1,30 @@
+{
+	"files": {
+		"starter/sass/main.scss": {
+			"engines": [
+				{
+					"compiler": "scss",
+					"output": "../css/style.css",
+					"options": {
+						"style": 0,
+						"comments": false
+					}
+				}
+			],
+			"sources": [
+				"abstracts/_functions.scss",
+				"abstracts/_mixins.scss",
+				"abstracts/_variables.scss",
+				"base/_animations.scss",
+				"base/_base.scss",
+				"base/_typography.scss",
+				"base/_utilities.scss",
+				"components/_button.scss",
+				"layout/_grid.scss",
+				"layout/_header.scss",
+				"main.scss",
+				"pages/_home.scss"
+			]
+		}
+	}
+}

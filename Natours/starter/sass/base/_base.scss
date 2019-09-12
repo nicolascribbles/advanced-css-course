@@ -1,0 +1,18 @@
+/* Reset Styles */
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  //Defines 1rem
+  font-size: 62.5%;
+  }
+
+body {
+  -moz-box-sizing: border-box;
+}
+
+/* End of Reset */
