@@ -26,11 +26,15 @@
     - Bonus: Installed Emmet for my IDE's at work and home.
     
 ## Section 5 (Part Two)
-- In section 5, we built the rest of the page, minus the navigation and mobile responsiveness
+- In section 5, we built the rest of the page
     - We made background videos for sections
     - Flip cards
     - Figures and figcaptions with cool hover effects
     - Form styling
+    - Build Navigation
+        * Checkbox Hack, Solid-color gradients, how and when to use transform-origin, which was not used in this project
+    - Built Pure CSS popup
+    
 
 ##
 
