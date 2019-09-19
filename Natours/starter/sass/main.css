@@ -27,17 +27,21 @@
     opacity: 1;
     transform: translateY(0); } }
 
+/* line 3, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_base.scss */
 *, *::after, *::before {
   margin: 0;
   padding: 0;
   box-sizing: inherit; }
 
+/* line 9, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_base.scss */
 html {
   font-size: 62.5%; }
 
+/* line 14, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_base.scss */
 body {
   -moz-box-sizing: border-box; }
 
+/* line 1, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_typography.scss */
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -48,11 +52,13 @@ body {
   box-sizing: border-box;
   -webkit-box-sizing: border-box; }
 
+/* line 12, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_typography.scss */
 .heading-primary {
   color: #fff;
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem; }
+  /* line 18, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_typography.scss */
   .heading-primary--main {
     display: block;
     font-size: 6rem;
@@ -66,6 +72,7 @@ body {
        animation-iteration-count: 3;
        animation-timing-function:;
        */ }
+  /* line 33, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_typography.scss */
   .heading-primary--sub {
     display: block;
     font-size: 2rem;
@@ -73,6 +80,7 @@ body {
     letter-spacing: 1.75rem;
     animation: moveInRight 1s ease-out; }
 
+/* line 42, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_typography.scss */
 .heading-secondary {
   font-size: 3.5rem;
   text-transform: uppercase;
@@ -83,38 +91,49 @@ body {
   color: transparent;
   letter-spacing: 2px;
   transition: all .2s; }
+  /* line 53, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_typography.scss */
   .heading-secondary:hover {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
+/* line 59, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_typography.scss */
 .heading-tertiary {
   font-size: 1.6rem;
   font-weight: 700;
   text-transform: uppercase; }
 
+/* line 65, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_typography.scss */
 .paragraph {
   font-size: 1.6rem; }
+  /* line 68, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_typography.scss */
   .paragraph:not(:last-child) {
     margin-bottom: 3rem; }
 
+/* line 1, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_utilities.scss */
 .u-center-text {
   text-align: center; }
 
+/* line 2, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_utilities.scss */
 .u-margin-bottom-small {
   margin-bottom: 1.5rem; }
 
+/* line 3, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_utilities.scss */
 .u-margin-bottom-medium {
   margin-bottom: 4rem; }
 
+/* line 4, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_utilities.scss */
 .u-margin-bottom-big {
   margin-bottom: 8rem; }
 
+/* line 8, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_utilities.scss */
 .u-margin-top-big {
   margin-top: 8rem; }
 
+/* line 9, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_utilities.scss */
 .u-margin-top-huge {
   margin-top: 10rem; }
 
+/* line 3, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_button.scss */
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -125,29 +144,37 @@ body {
   position: relative;
   font-size: 1.6rem; }
 
+/* line 15, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_button.scss */
 .btn:hover {
   transform: translateY(-0.3rem);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+  /* line 18, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_button.scss */
   .btn:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0; }
 
+/* line 24, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_button.scss */
 .btn:active {
   transform: translateY(-0.1rem);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
 
+/* line 29, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_button.scss */
 .btn--white {
   background-color: #fff;
   color: #777; }
+  /* line 33, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_button.scss */
   .btn--white::after {
     background-color: #fff; }
 
+/* line 38, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_button.scss */
 .btn--primary {
   background-color: #55c57a;
   color: #fff; }
+  /* line 42, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_button.scss */
   .btn--primary::after {
     background-color: #55c57a; }
 
+/* line 47, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_button.scss */
 .btn::after {
   content: '';
   display: inline-block;
@@ -160,11 +187,13 @@ body {
   z-index: -1;
   transition: all .4s; }
 
+/* line 60, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_button.scss */
 .btn--animated {
   animation: moveInBottom .5s ease-out;
   animation-delay: .75s;
   animation-fill-mode: backwards; }
 
+/* line 69, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_button.scss */
 .btn-text:link, .btn-text:visited {
   font-size: 1.6rem;
   color: #55c57a;
@@ -174,21 +203,25 @@ body {
   padding: 3px;
   transition: all .2s; }
 
+/* line 80, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_button.scss */
 .btn-text:hover {
   background-color: #55c57a;
   color: #fff;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
   transform: translateY(-2px); }
 
+/* line 87, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_button.scss */
 .btn-text:active {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
   transform: translateY(0); }
 
+/* line 1, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
   height: 58rem; }
+  /* line 8, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
   .card__side {
     height: 52rem;
     transition: all .8s;
@@ -200,20 +233,28 @@ body {
     border-radius: 3px;
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+    /* line 21, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
     .card__side--front {
       background-color: #fff; }
+    /* line 26, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
     .card__side--back {
       transform: rotateY(-180deg); }
+      /* line 28, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
       .card__side--back-1 {
         background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
+      /* line 31, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
       .card__side--back-2 {
         background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
+      /* line 34, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
       .card__side--back-3 {
         background-image: linear-gradient(to right bottom, #2998ff, #5643fa); }
+  /* line 40, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
   .card:hover .card__side--front {
     transform: rotateY(180deg); }
+  /* line 45, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
   .card:hover .card__side--back {
     transform: rotateY(0deg); }
+  /* line 52, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
   .card__picture {
     background-size: cover;
     height: 23rem;
@@ -222,12 +263,16 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
+    /* line 61, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
     .card__picture--1 {
       background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url("../img/nat-5.jpg"); }
+    /* line 64, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
     .card__picture--2 {
       background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url("../img/nat-6.jpg"); }
+    /* line 67, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
     .card__picture--3 {
       background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url("../img/nat-7.jpg"); }
+  /* line 73, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -238,28 +283,37 @@ body {
     top: 12rem;
     right: 2rem;
     width: 75%; }
+  /* line 85, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
   .card__heading-span {
     padding: 1rem 1.75rem;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone; }
+    /* line 90, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
     .card__heading-span--1 {
       background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
+    /* line 94, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
     .card__heading-span--2 {
       background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85)); }
+    /* line 97, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
     .card__heading-span--3 {
       background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
+  /* line 104, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
   .card__details {
     padding: 3rem; }
+    /* line 107, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
     .card__details ul {
       list-style: none;
       width: 80%;
       margin: 0 auto; }
+      /* line 112, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
       .card__details ul li {
         text-align: center;
         font-size: 1.5rem;
         padding: 1rem; }
+        /* line 117, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
         .card__details ul li:not(:last-child) {
           border-bottom: 1px solid #eee; }
+  /* line 128, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
   .card__cta {
     position: absolute;
     top: 50%;
@@ -267,19 +321,24 @@ body {
     transform: translate(-50%, -50%);
     width: 90%;
     text-align: center; }
+  /* line 137, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
   .card__price-box {
     text-align: center;
     color: #fff;
     margin-bottom: 8rem; }
+  /* line 143, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
   .card__price-only {
     font-size: 1.4rem;
     text-transform: uppercase; }
+  /* line 147, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
   .card__price-value {
     font-size: 6rem;
     font-weight: 100; }
 
+/* line 1, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_composition.scss */
 .composition {
   position: relative; }
+  /* line 4, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_composition.scss */
   .composition__photo {
     width: 55%;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
@@ -288,23 +347,29 @@ body {
     z-index: 10;
     transition: all .2s;
     outline-offset: 2rem; }
+    /* line 13, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_composition.scss */
     .composition__photo--p1 {
       left: 0;
       top: -2rem; }
+    /* line 19, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_composition.scss */
     .composition__photo--p2 {
       right: 0;
       top: 2rem; }
+    /* line 25, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_composition.scss */
     .composition__photo--p3 {
       left: 20%;
       top: 10rem; }
+    /* line 31, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_composition.scss */
     .composition__photo:hover {
       outline: 1.5rem solid #55c57a;
       transform: scale(1.05) translateY(-0.5rem);
       box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
       z-index: 20; }
+  /* line 39, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_composition.scss */
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(0.9); }
 
+/* line 1, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_feature-box.scss */
 .feature-box {
   background-color: rgba(255, 255, 255, 0.8);
   font-size: 1.5rem;
@@ -313,6 +378,7 @@ body {
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   transition: transform .3s; }
+  /* line 10, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_feature-box.scss */
   .feature-box__icon {
     font-size: 6rem;
     margin-bottom: .5rem;
@@ -320,12 +386,15 @@ body {
     background-image: linear-gradient(to right, #7ed56f, #28b485);
     -webkit-background-clip: text;
     display: inline-block; }
+  /* line 21, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_feature-box.scss */
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
 
+/* line 2, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_form.scss */
 .form__group:not(:last-child) {
   margin-bottom: 2rem; }
 
+/* line 6, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_form.scss */
 .form__input {
   font-family: inherit;
   font-size: 1.5rem;
@@ -337,15 +406,19 @@ body {
   border-bottom: 3px solid transparent;
   width: 90%;
   display: block; }
+  /* line 18, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_form.scss */
   .form__input:focus {
     outline: none;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
     border-bottom: 3px solid #55c57a; }
+  /* line 24, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_form.scss */
   .form__input:focus:invalid {
     border-bottom: 3px solid #ff7730; }
+  /* line 28, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_form.scss */
   .form__input::-webkit-input-placeholder {
     color: #999; }
 
+/* line 37, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_form.scss */
 .form__label {
   font-size: 1.2rem;
   font-weight: 700;
@@ -354,11 +427,13 @@ body {
   display: block;
   transition: all .3s; }
 
+/* line 46, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_form.scss */
 .form__input:placeholder-shown + .form__label {
   opacity: 0;
   visibility: hidden;
   transform: translateY(-4rem); }
 
+/* line 1, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_story.scss */
 .story {
   width: 75%;
   margin: 0 auto;
@@ -368,6 +443,7 @@ body {
   padding: 6rem;
   font-size: 1.6rem;
   transform: skewX(-12deg); }
+  /* line 11, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_story.scss */
   .story__shape {
     width: 15rem;
     height: 15rem;
@@ -378,13 +454,16 @@ body {
     clip-path: circle(50% at 50% 50%);
     transform: translateX(-3rem) skewX(12deg);
     position: relative; }
+  /* line 24, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_story.scss */
   .story__image {
     height: 100%;
     transform: translateX(-4rem) scale(1.4);
     backface-visibility: hidden;
     transition: all .5s; }
+  /* line 32, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_story.scss */
   .story__text {
     transform: skewX(12deg); }
+  /* line 37, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_story.scss */
   .story__caption {
     position: absolute;
     top: 50%;
@@ -397,13 +476,16 @@ body {
     opacity: 0;
     transition: all .5s;
     backface-visibility: hidden; }
+  /* line 51, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_story.scss */
   .story:hover .story__caption {
     opacity: 1;
     transform: translate(-50%, -50%); }
+  /* line 56, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_story.scss */
   .story:hover .story__image {
     transform: translateX(-4rem) scale(1);
     filter: blur(3px) brightness(80%); }
 
+/* line 1, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_bg-video.scss */
 .bg-video {
   position: absolute;
   top: 0;
@@ -413,37 +495,50 @@ body {
   z-index: -1;
   opacity: .15;
   overflow: hidden; }
+  /* line 11, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_bg-video.scss */
   .bg-video__content {
     height: 100%;
     width: 100%;
     object-fit: cover; }
 
+/* line 1, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_grid.scss */
 .row {
   max-width: 114rem;
   margin: 0 auto; }
+  /* line 5, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_grid.scss */
   .row:not(:last-child) {
     margin-bottom: 8rem; }
+  /* line 2, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/abstracts/_mixins.scss */
   .row::after {
     content: "";
     display: table;
     clear: both; }
+  /* line 11, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_grid.scss */
   .row [class^="col-"] {
     float: left; }
+    /* line 15, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_grid.scss */
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
+  /* line 23, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_grid.scss */
   .row .col-1-of-2 {
     width: calc((100% - 6rem) / 2); }
+  /* line 27, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_grid.scss */
   .row .col-1-of-3 {
     width: calc((100% - 2 * 6rem) / 3); }
+  /* line 31, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_grid.scss */
   .row .col-2-of-3 {
     width: calc( 2 * ((100% - 2 * 6rem) / 3) + 6rem); }
+  /* line 36, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_grid.scss */
   .row .col-1-of-4 {
     width: calc((100% - 3 * 6rem) / 4); }
+  /* line 40, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_grid.scss */
   .row .col-2-of-4 {
     width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem); }
+  /* line 44, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_grid.scss */
   .row .col-3-of-4 {
     width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * (6rem)); }
 
+/* line 2, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_header.scss */
 .header {
   height: 95vh;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url("../img/hero.jpg");
@@ -451,12 +546,15 @@ body {
   background-position: top;
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
+  /* line 14, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_header.scss */
   .header__logo-box {
     position: absolute;
     top: 4rem;
     left: 4rem; }
+  /* line 21, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_header.scss */
   .header__logo {
     height: 3.5rem; }
+  /* line 25, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_header.scss */
   .header__text-box {
     position: absolute;
     top: 40%;
@@ -464,38 +562,48 @@ body {
     transform: translate(-50%, -50%);
     text-align: center; }
 
+/* line 1, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/pages/_home.scss */
 .section-about {
   background-color: #f7f7f7;
   padding: 25rem 0;
   margin-top: -20vh; }
 
+/* line 7, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/pages/_home.scss */
 .section-features {
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url("../img/nat-4.jpg");
   padding: 20rem 0;
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem; }
+  /* line 16, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/pages/_home.scss */
   .section-features > * {
     transform: skewY(7deg); }
 
+/* line 22, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/pages/_home.scss */
 .section-tours {
   padding: 25rem 0 25rem 0;
   background-color: #f7f7f7;
   margin-top: -10rem; }
 
+/* line 28, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/pages/_home.scss */
 .section-stories {
   padding: 15rem 0;
   position: relative; }
 
+/* line 33, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/pages/_home.scss */
 .section-book {
   padding: 15rem 0;
   background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
 
+/* line 38, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/pages/_home.scss */
 .book {
   background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url("../img/nat-10.jpg");
   background-size: 100%;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2); }
+  /* line 44, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/pages/_home.scss */
   .book__form {
     width: 50%;
     padding: 6rem; }
+
+/*# sourceMappingURL=main.css.map */
