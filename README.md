@@ -3,7 +3,7 @@
 
 # Natours
 
-## Section 1
+## Section 1 (Part One)
 - In section 1, I added the github repository and configured my files to the Vagrant Box
 
 ## Section 2
@@ -14,7 +14,24 @@
     - Built a complex animated button using pseudo-elements and pseudo-classes
 
 ## Section 3
-- Have not begun yet
+- In section 3, I learned about the BEM method and we talked about how CSS is rendered. Not much changes to the project happened here.
+
+## Section 4
+- In section 4, I was introduced to SASS and npm, and we began converting the files.
+    - I was able to get this installed on my work and home computer with Git Bash and terminal to command-line my changes into a repository.
+    - We covered Variables and Nesting
+    - Mixins, Extends, Functions
+    - Installing Sass locally and compiling SCSS
+    - Sass Architecture was also very important, as it was applied to the rest of the project and helps make CSS easier to write.
+    - Bonus: Installed Emmet for my IDE's at work and home.
+    
+## Section 5 (Part Two)
+- In section 5, we built the rest of the page, minus the navigation and mobile responsiveness
+    - We made background videos for sections
+    - Flip cards
+    - Figures and figcaptions with cool hover effects
+    - Form styling
+
 ##
 
 # Course Material and FAQ for my Advanced CSS Course
