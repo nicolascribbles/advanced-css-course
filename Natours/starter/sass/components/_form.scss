@@ -1,8 +1,11 @@
 .form {
+
+    //spacing between each form__group except the last one
     &__group:not(:last-child) {
         margin-bottom: 2rem;
     }
-    
+
+    //form__input styles (input box)
     &__input {
         font-family: inherit;
         font-size: 1.5rem;
@@ -14,26 +17,29 @@
         border-bottom: 3px solid transparent;       
         width: 90%;
         display: block;
-    
+        transition: all .3s;
+
+        //when you click into the form
         &:focus {
             outline: none;
             box-shadow: 0 1rem 2rem rgba($color-black, .1);
             border-bottom: 3px solid $color-primary;
         }
-        
+
+        //when they have entered an invalid input
         &:focus:invalid {
             border-bottom: 3px solid $color-secondary-dark;
         }
-        
+
+        //placeholder color
         &::-webkit-input-placeholder {
             color: $color-grey-dark-2;
         }
         
         
     }
-    
-    
-    
+
+    //the label for input boxes
     &__label {
         font-size: 1.2rem;
         font-weight: 700;
@@ -50,4 +56,59 @@
         
         
     }
+
+
+    &__radio {
+
+        &-group {
+            width: 50%;
+            display: inline-block;
+            float: left;
+        }
+
+        &-label {
+            font-size: $default-font-size;
+            cursor: pointer;
+            position: relative;
+            padding-left: 3rem;
+        }
+
+        //custom button living in the span to cover the default radio
+        &-button {
+            height: 2.8rem;
+            width: 2.8rem;
+            border: 5px solid $color-primary;
+            border-radius: 50%;
+            display: inline-block;
+            position: absolute;
+            left: 0;
+            top: -.4rem;
+
+
+            &::after {
+                content: "";
+                display: block;
+                height: 1rem;
+                width: 1rem;
+                background-color: $color-primary;
+                border-radius: 50%;
+                position:absolute;
+                top:50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                opacity: 0;
+                transition: opacity .2s;
+            }
+
+        }
+
+        &-input {
+            display: none;
+        }
+
+        &-input:checked ~ &-label &-button::after {
+            opacity: 1;
+        }
+    }
 }
+
