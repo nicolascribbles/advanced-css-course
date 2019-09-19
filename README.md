@@ -34,7 +34,12 @@
     - Build Navigation
         * Checkbox Hack, Solid-color gradients, how and when to use transform-origin, which was not used in this project
     - Built Pure CSS popup
-    
+        
+## Section 6 (Part Three)
+- In section 6, we are focusing on media queries and responsive design
+    - Use mixins to write media queries
+    - Responsive images,
+    - and more!
 
 ##
 
