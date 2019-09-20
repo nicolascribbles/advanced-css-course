@@ -40,6 +40,8 @@
     - Use mixins to write media queries
     - Responsive images,
     - and more!
+    
+    - Section Bonus / Challenge: Popup Responsive Styles - I removed the left side on the pop-up and gave it a set height so the text would overflow and remain responsive on anything smaller than a tablet device.
 
 ##
 

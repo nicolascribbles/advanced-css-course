@@ -18,6 +18,11 @@
         width: 90%;
         display: block;
         transition: all .3s;
+        
+        
+        @include respond(tab-port) {
+            width: 100%;
+        }
 
         //when you click into the form
         &:focus {
@@ -64,6 +69,11 @@
             width: 50%;
             display: inline-block;
             float: left;
+            
+            @include respond(tab-port) {
+                width: 100%;
+                margin-bottom: 2rem;  
+            }
         }
 
         &-label {

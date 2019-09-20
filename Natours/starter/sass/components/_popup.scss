@@ -32,14 +32,23 @@
   &__left {
     width: 33.3333333%;
     display: table-cell;
+      
+    @include respond(tab-port) {
+        display: none;
+        
+      }
   }
   &__right {
     width: 66.6666667%;
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem;
+    @include respond(tab-port) {
+        width: 100%;
+        display: block;
 
-  }
+      }
+    }
   &__img {
     display: block;
     width: 100%;
@@ -62,6 +71,16 @@
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto;
+      
+      
+    @include respond(tab-port) {
+        
+        column-count: 1;
+        -moz-column-count: 1;
+        height: 65vh;
+        overflow-y: auto;
+        padding: 1rem;
+    }
 
   }
 
