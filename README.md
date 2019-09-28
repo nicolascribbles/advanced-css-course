@@ -45,7 +45,19 @@
     - Section Bonus / Challenge: Popup Responsive Styles - I removed the left side on the pop-up and gave it a set height so the text would overflow and remain responsive on anything smaller than a tablet device.
 
 ## Section 7 - Beginning the Trillo Project
-- In section 7, we begin looking into flex-box design
+- In section 7, we begin looking into flex-box design, custom css properties, masks and SVGs
+    - Learned intricacies and simplicities of flexbox layout
+        * X axis is called the Main Axis
+        * Y axis is called the Cross Axis
+        * Container: HOLDS ITEMS. flex-direction, flex-wrap, justify-content, align-content.
+        * Items: CAN HOLD MORE CONTAINERS. align-self, order, flex (grow shrink basis).
+    - Used flexbox layout to create:
+        * A header which contained a logo, a search bar with svg icon, and a user navigation
+        * A sidebar with the main navigation of an application
+        * [ PENDING : A main element where the web app content or views are displayed ]
+    - Used cubic-bezier to create an advanced hover animation over the main nav
+    - Implemented an SVG font from icomoon
+    
 
 # Course Material and FAQ for my Advanced CSS Course
 

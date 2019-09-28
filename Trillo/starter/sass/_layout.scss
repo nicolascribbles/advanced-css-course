@@ -1,0 +1,57 @@
+.container {
+    // Maximum width of the container of the app
+    max-width: 120rem;
+    
+    // 80px margin top and bottom, automatically centered horzontally
+    margin: 8rem auto;
+    background-color: var(--color-grey-light-2);
+    box-shadow: var(--shadow-dark);
+    
+    //testing
+    min-height: 50rem;
+}
+.header {
+    font-size: 1.4rem;
+    height: 7rem;
+    background-color: #fff;
+    border-bottom: var(--color-grey-light-2);
+    
+    // Place items in the header side by side
+    display: flex;
+    
+    // Align items on the main axis
+    justify-content: space-between;
+    
+    // Align all children vertically
+    align-items: center;
+    
+}
+.content {
+    // Initiate flex container property to align items within it side by side
+    display: flex;
+}
+.sidebar {
+    background-color: var(--color-grey-dark-1);
+    
+    // We don't want it to grow, shrink, and the basis is 18% of the available space, 
+    // However, the hotel view doesn't have any width, so move on to .hotel-view
+    flex: 0 0 18%;
+    
+    // This separates the navigation and the legal text between the top and bottom
+    display: flex;
+    flex-direction: column;
+    
+    // Even space between (include this note for the above)
+    justify-content: space-between;
+}
+
+.hotel-view {
+    background-color: #fff;
+    
+    // Hotel-view is set to fill out the full amount of the available space
+    flex: 1;
+    
+    // for testing purposes
+    background-color: orangered;
+    height: 80rem;
+}
