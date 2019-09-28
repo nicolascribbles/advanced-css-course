@@ -36,15 +36,15 @@
 /* line 9, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_base.scss */
 html {
   font-size: 62.5%; }
-  @media (max-width: 75em) {
+  @media only screen and (max-width: 75em) {
     /* line 9, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_base.scss */
     html {
       font-size: 56.25%; } }
-  @media (max-width: 56.25em) {
+  @media only screen and (max-width: 56.25em) {
     /* line 9, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_base.scss */
     html {
       font-size: 50%; } }
-  @media (min-width: 112.5em) {
+  @media only screen and (min-width: 112.5em) {
     /* line 9, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_base.scss */
     html {
       font-size: 75%; } }
@@ -53,10 +53,15 @@ html {
 body {
   -moz-box-sizing: border-box;
   padding: 3rem; }
-  @media (max-width: 56.25em) {
+  @media only screen and (max-width: 56.25em) {
     /* line 32, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_base.scss */
     body {
       padding: 0; } }
+
+/* line 42, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_base.scss */
+::selection {
+  background-color: #55c57a;
+  color: #fff; }
 
 /* line 1, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_typography.scss */
 body {
@@ -89,7 +94,7 @@ body {
        animation-iteration-count: 3;
        animation-timing-function:;
        */ }
-    @media (max-width: 37.5em) {
+    @media only screen and (max-width: 37.5em) {
       /* line 18, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_typography.scss */
       .heading-primary--main {
         letter-spacing: 1rem;
@@ -101,7 +106,7 @@ body {
     font-weight: 700;
     letter-spacing: 1.75rem;
     animation: moveInRight 1s ease-out; }
-    @media (max-width: 37.5em) {
+    @media only screen and (max-width: 37.5em) {
       /* line 38, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_typography.scss */
       .heading-primary--sub {
         letter-spacing: .5rem; } }
@@ -117,11 +122,11 @@ body {
   color: transparent;
   letter-spacing: 2px;
   transition: all .2s; }
-  @media (max-width: 56.25em) {
+  @media only screen and (max-width: 56.25em) {
     /* line 51, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_typography.scss */
     .heading-secondary {
       font-size: 3rem; } }
-  @media (max-width: 37.5em) {
+  @media only screen and (max-width: 37.5em) {
     /* line 51, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_typography.scss */
     .heading-secondary {
       font-size: 2.5rem; } }
@@ -154,7 +159,7 @@ body {
 /* line 3, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_utilities.scss */
 .u-margin-bottom-medium {
   margin-bottom: 4rem !important; }
-  @media (max-width: 56.25em) {
+  @media only screen and (max-width: 56.25em) {
     /* line 3, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_utilities.scss */
     .u-margin-bottom-medium {
       margin-bottom: 3rem !important; } }
@@ -162,7 +167,7 @@ body {
 /* line 11, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_utilities.scss */
 .u-margin-bottom-big {
   margin-bottom: 8rem !important; }
-  @media (max-width: 56.25em) {
+  @media only screen and (max-width: 56.25em) {
     /* line 11, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/base/_utilities.scss */
     .u-margin-bottom-big {
       margin-bottom: 5rem !important; } }
@@ -380,30 +385,30 @@ body {
   .card__price-value {
     font-size: 6rem;
     font-weight: 100; }
-  @media (max-width: 56.25em) {
+  @media only screen and (max-width: 56.25em), only screen and (hover: none) {
     /* line 1, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
     .card {
       background-color: #fff;
       height: auto;
       border-radius: 3px;
       box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
-      /* line 163, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
+      /* line 164, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
       .card__side {
         height: auto;
         position: relative;
         box-shadow: none; }
-        /* line 169, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
+        /* line 170, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
         .card__side--back {
           transform: rotateY(0deg);
           -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
           clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%); }
-      /* line 176, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
+      /* line 177, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
       .card:hover .card__side--front {
         transform: rotateY(0deg); }
-      /* line 180, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
+      /* line 181, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
       .card__details {
         padding: 0 1rem; }
-      /* line 184, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
+      /* line 185, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
       .card__cta {
         position: relative;
         top: 0;
@@ -411,10 +416,10 @@ body {
         transform: translate(0);
         width: 100%;
         padding: 7rem 4rem 4rem 4rem; }
-      /* line 193, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
+      /* line 194, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
       .card__price-box {
         margin-bottom: 3rem; }
-      /* line 197, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
+      /* line 198, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_card.scss */
       .card__price-value {
         font-size: 6rem; } }
 
@@ -430,7 +435,7 @@ body {
     z-index: 10;
     transition: all .2s;
     outline-offset: 2rem; }
-    @media (max-width: 56.25em) {
+    @media only screen and (max-width: 56.25em) {
       /* line 4, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_composition.scss */
       .composition__photo {
         float: left;
@@ -441,7 +446,7 @@ body {
     .composition__photo--p1 {
       left: 0;
       top: -2rem; }
-      @media (max-width: 56.25em) {
+      @media only screen and (max-width: 56.25em) {
         /* line 20, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_composition.scss */
         .composition__photo--p1 {
           transform: scale(1.2);
@@ -450,7 +455,7 @@ body {
     .composition__photo--p2 {
       right: 0;
       top: 2rem; }
-      @media (max-width: 56.25em) {
+      @media only screen and (max-width: 56.25em) {
         /* line 31, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_composition.scss */
         .composition__photo--p2 {
           top: -1rem;
@@ -460,7 +465,7 @@ body {
     .composition__photo--p3 {
       left: 20%;
       top: 10rem; }
-      @media (max-width: 56.25em) {
+      @media only screen and (max-width: 56.25em) {
         /* line 42, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_composition.scss */
         .composition__photo--p3 {
           top: 1rem;
@@ -485,7 +490,7 @@ body {
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   transition: transform .3s; }
-  @media (max-width: 56.25em) {
+  @media only screen and (max-width: 56.25em) {
     /* line 1, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_feature-box.scss */
     .feature-box {
       padding: 2rem; } }
@@ -497,7 +502,7 @@ body {
     background-image: linear-gradient(to right, #7ed56f, #28b485);
     -webkit-background-clip: text;
     display: inline-block; }
-    @media (max-width: 56.25em) {
+    @media only screen and (max-width: 56.25em) {
       /* line 14, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_feature-box.scss */
       .feature-box__icon {
         margin: 0; } }
@@ -522,7 +527,7 @@ body {
   width: 90%;
   display: block;
   transition: all .3s; }
-  @media (max-width: 56.25em) {
+  @media only screen and (max-width: 56.25em) {
     /* line 9, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_form.scss */
     .form__input {
       width: 100%; } }
@@ -558,7 +563,7 @@ body {
   width: 50%;
   display: inline-block;
   float: left; }
-  @media (max-width: 56.25em) {
+  @media only screen and (max-width: 56.25em) {
     /* line 68, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_form.scss */
     .form__radio-group {
       width: 100%;
@@ -614,13 +619,13 @@ body {
   padding: 6rem;
   font-size: 1.6rem;
   transform: skewX(-12deg); }
-  @media (max-width: 56.25em) {
+  @media only screen and (max-width: 56.25em) {
     /* line 1, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_story.scss */
     .story {
       width: 100%;
       padding: 4rem;
       padding-left: 7rem; } }
-  @media (max-width: 37.5em) {
+  @media only screen and (max-width: 37.5em) {
     /* line 1, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_story.scss */
     .story {
       transform: skewX(0); } }
@@ -639,7 +644,7 @@ body {
         -webkit-shape-outside: circle(50% at 50% 50%);
         shape-outside: circle(50% at 50% 50%);
         border-radius: none; } }
-    @media (max-width: 37.5em) {
+    @media only screen and (max-width: 37.5em) {
       /* line 21, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_story.scss */
       .story__shape {
         transform: translate(-3rem) skewX(0); } }
@@ -653,7 +658,7 @@ body {
   /* line 54, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_story.scss */
   .story__text {
     transform: skewX(12deg); }
-    @media (max-width: 37.5em) {
+    @media only screen and (max-width: 37.5em) {
       /* line 54, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_story.scss */
       .story__text {
         transform: skewX(0); } }
@@ -732,7 +737,7 @@ body {
   .popup__left {
     width: 33.3333333%;
     display: table-cell; }
-    @media (max-width: 56.25em) {
+    @media only screen and (max-width: 56.25em) {
       /* line 38, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_popup.scss */
       .popup__left {
         display: none; } }
@@ -742,7 +747,7 @@ body {
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem; }
-    @media (max-width: 56.25em) {
+    @media only screen and (max-width: 56.25em) {
       /* line 47, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_popup.scss */
       .popup__right {
         width: 100%;
@@ -765,7 +770,7 @@ body {
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto; }
-    @media (max-width: 56.25em) {
+    @media only screen and (max-width: 56.25em) {
       /* line 62, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/components/_popup.scss */
       .popup__text {
         column-count: 1;
@@ -800,12 +805,12 @@ body {
   /* line 5, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_grid.scss */
   .row:not(:last-child) {
     margin-bottom: 8rem; }
-    @media (max-width: 56.25em) {
+    @media only screen and (max-width: 56.25em) {
       /* line 5, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_grid.scss */
       .row:not(:last-child) {
         margin-bottom: 6rem;
         padding: 0 3rem; } }
-  @media (max-width: 56.25em) {
+  @media only screen and (max-width: 56.25em) {
     /* line 1, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_grid.scss */
     .row {
       max-width: 50rem; } }
@@ -820,11 +825,11 @@ body {
     /* line 27, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_grid.scss */
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
-      @media (max-width: 56.25em) {
+      @media only screen and (max-width: 56.25em) {
         /* line 27, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_grid.scss */
         .row [class^="col-"]:not(:last-child) {
           margin-bottom: 6rem; } }
-    @media (max-width: 56.25em) {
+    @media only screen and (max-width: 56.25em) {
       /* line 23, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_grid.scss */
       .row [class^="col-"] {
         width: 100% !important;
@@ -861,11 +866,11 @@ body {
       height: 95vh;
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
       clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); } }
-  @media (min-resolution: 192dpi) and (min-width: 37.5em), (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), (min-width: 125em) {
+  @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), (min-width: 125em) {
     /* line 2, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_header.scss */
     .header {
       background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url("../img/hero.jpg"); } }
-  @media (max-width: 37.5em) {
+  @media only screen and (max-width: 37.5em) {
     /* line 2, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_header.scss */
     .header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
@@ -891,7 +896,7 @@ body {
   background-color: #333;
   padding: 10rem 0;
   font-size: 1.4rem; }
-  @media (max-width: 56.25em) {
+  @media only screen and (max-width: 56.25em) {
     /* line 1, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_footer.scss */
     .footer {
       padding: 8rem 0; } }
@@ -899,7 +904,7 @@ body {
   .footer__logo-box {
     text-align: center;
     margin-bottom: 8rem; }
-    @media (max-width: 56.25em) {
+    @media only screen and (max-width: 56.25em) {
       /* line 12, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_footer.scss */
       .footer__logo-box {
         margin-bottom: 6rem; } }
@@ -912,7 +917,7 @@ body {
     border-top: 1px solid #eee;
     padding-top: 2rem;
     display: inline-block; }
-    @media (max-width: 56.25em) {
+    @media only screen and (max-width: 56.25em) {
       /* line 25, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_footer.scss */
       .footer__navigation {
         width: 100%;
@@ -947,7 +952,7 @@ body {
     padding-top: 2rem;
     width: 80%;
     float: right; }
-    @media (max-width: 56.25em) {
+    @media only screen and (max-width: 56.25em) {
       /* line 70, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_footer.scss */
       .footer__copyright {
         width: 100%;
@@ -970,12 +975,12 @@ body {
   z-index: 2000;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
   cursor: pointer; }
-  @media (max-width: 56.25em) {
+  @media only screen and (max-width: 56.25em) {
     /* line 6, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_navigation.scss */
     .navigation__button {
       top: 4rem;
       right: 4rem; } }
-  @media (max-width: 37.5em) {
+  @media only screen and (max-width: 37.5em) {
     /* line 6, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_navigation.scss */
     .navigation__button {
       top: 3.5rem;
@@ -992,12 +997,12 @@ body {
   right: 6.5rem;
   z-index: 1000;
   transition: transform .8s; }
-  @media (max-width: 56.25em) {
+  @media only screen and (max-width: 56.25em) {
     /* line 31, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_navigation.scss */
     .navigation__background {
       top: 4.5rem;
       right: 4.5rem; } }
-  @media (max-width: 37.5em) {
+  @media only screen and (max-width: 37.5em) {
     /* line 31, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/layout/_navigation.scss */
     .navigation__background {
       top: 4rem;
@@ -1110,7 +1115,7 @@ body {
   background-color: #f7f7f7;
   padding: 25rem 0;
   margin-top: -20vh; }
-  @media (max-width: 56.25em) {
+  @media only screen and (max-width: 56.25em) {
     /* line 1, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/pages/_home.scss */
     .section-about {
       padding: 20rem 0; } }
@@ -1125,7 +1130,7 @@ body {
   /* line 22, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/pages/_home.scss */
   .section-features > * {
     transform: skewY(7deg); }
-  @media (max-width: 56.25em) {
+  @media only screen and (max-width: 56.25em) {
     /* line 13, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/pages/_home.scss */
     .section-features {
       padding: 10rem 0; } }
@@ -1135,7 +1140,7 @@ body {
   padding: 25rem 0 15rem 0;
   background-color: #f7f7f7;
   margin-top: -10rem; }
-  @media (max-width: 56.25em) {
+  @media only screen and (max-width: 56.25em) {
     /* line 34, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/pages/_home.scss */
     .section-tours {
       padding: 20rem 0 10rem 0; } }
@@ -1144,7 +1149,7 @@ body {
 .section-stories {
   padding: 15rem 0;
   position: relative; }
-  @media (max-width: 56.25em) {
+  @media only screen and (max-width: 56.25em) {
     /* line 45, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/pages/_home.scss */
     .section-stories {
       padding: 10rem 0; } }
@@ -1153,7 +1158,7 @@ body {
 .section-book {
   padding: 15rem 0;
   background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
-  @media (max-width: 56.25em) {
+  @media only screen and (max-width: 56.25em) {
     /* line 55, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/pages/_home.scss */
     .section-book {
       padding: 10rem 0; } }
@@ -1164,12 +1169,12 @@ body {
   background-size: 100%;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2); }
-  @media (max-width: 75em) {
+  @media only screen and (max-width: 75em) {
     /* line 66, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/pages/_home.scss */
     .book {
       background-size: cover;
       background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url("../img/nat-10.jpg"); } }
-  @media (max-width: 56.25em) {
+  @media only screen and (max-width: 56.25em) {
     /* line 66, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/pages/_home.scss */
     .book {
       background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url("../img/nat-10.jpg"); } }
@@ -1177,11 +1182,11 @@ body {
   .book__form {
     width: 50%;
     padding: 6rem; }
-    @media (max-width: 75em) {
+    @media only screen and (max-width: 75em) {
       /* line 88, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/pages/_home.scss */
       .book__form {
         width: 65%; } }
-    @media (max-width: 56.25em) {
+    @media only screen and (max-width: 56.25em) {
       /* line 88, /Users/nicola/AndroidStudioProjects/adv-css-course/Natours/starter/sass/pages/_home.scss */
       .book__form {
         width: 100%; } }

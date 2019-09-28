@@ -39,11 +39,13 @@
 - In section 6, we are focusing on media queries and responsive design
     - Use mixins to write media queries
     - Responsive images,
+    - @supports tags,
     - and more!
     
     - Section Bonus / Challenge: Popup Responsive Styles - I removed the left side on the pop-up and gave it a set height so the text would overflow and remain responsive on anything smaller than a tablet device.
 
-##
+## Section 7 - Beginning the Trillo Project
+- In section 7, we begin looking into flex-box design
 
 # Course Material and FAQ for my Advanced CSS Course
 
