@@ -54,9 +54,11 @@
     - Used flexbox layout to create:
         * A header which contained a logo, a search bar with svg icon, and a user navigation
         * A sidebar with the main navigation of an application
-        * [ PENDING : A main element where the web app content or views are displayed ]
+        * A main element where the web app content or views are displayed
     - Used cubic-bezier to create an advanced hover animation over the main nav
     - Implemented an SVG font from icomoon
+    - I used NPM libraries to minify the code and to add missing pre-fixes
+    - Responsive layout was a breeze with the organizing tools flexbox provides
     
 
 # Course Material and FAQ for my Advanced CSS Course
