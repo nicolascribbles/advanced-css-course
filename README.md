@@ -59,6 +59,13 @@
     - Implemented an SVG font from icomoon
     - I used NPM libraries to minify the code and to add missing pre-fixes
     - Responsive layout was a breeze with the organizing tools flexbox provides
+
+## Section 8
+- In section 8, CSS grid lectures and starting Nexter
+
+## Section 9
+- In section 9, I am building Nexter with grid and flex
+
     
 
 # Course Material and FAQ for my Advanced CSS Course
