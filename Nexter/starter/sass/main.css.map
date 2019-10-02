@@ -1,0 +1,19 @@
+{
+  "version": 3,
+  "file": "main.css",
+  "sources": [
+    "main.scss",
+    "_base.scss",
+    "_typography.scss",
+    "_sidebar.scss",
+    "_header.scss",
+    "_realtors.scss",
+    "_features.scss",
+    "_story.scss",
+    "_homes.scss",
+    "_gallery.scss",
+    "_footer.scss"
+  ],
+  "mappings": ";ACiBA,AAAA,CAAC;AACD,AAAC,CAAA,AAAA,QAAQ;AACT,AAAC,CAAA,AAAA,OAAO,CAAC;EACL,MAAM,EAAC,CAAE;EACT,OAAO,EAAE,CAAE;EACX,UAAU,EAAE,OAAQ,GACvB;;;AAED,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,UAAW;EACvB,SAAS,EAAE,KAAM,GACpB;;;AAED,AAAA,IAAI,CAAC;EACD,WAAW,EAlBA,QAAQ,EAAE,UAAU;EAmB/B,KAAK,EAtBW,OAAO;EAuBvB,WAAW,EAAE,GAAI;EACjB,WAAW,EAAE,GAAI,GAEpB;;;AEpCD,AAAA,QAAQ,CAAA;EACJ,gBAAgB,EFAJ,OAAO,GEEtB;;;ACHD,AAAA,OAAO,CAAA;EACH,gBAAgB,EHQA,OAAO,GGP1B;;;ACFD,AAAA,SAAS,CAAC;EACN,gBAAgB,EJGF,OAAO,GIFxB",
+  "names": []
+}

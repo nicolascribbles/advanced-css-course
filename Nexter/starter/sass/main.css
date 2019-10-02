@@ -1,0 +1,33 @@
+/* line 18, /Users/nicola/AndroidStudioProjects/adv-css-course/Nexter/starter/sass/_base.scss */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+/* line 26, /Users/nicola/AndroidStudioProjects/adv-css-course/Nexter/starter/sass/_base.scss */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+/* line 31, /Users/nicola/AndroidStudioProjects/adv-css-course/Nexter/starter/sass/_base.scss */
+body {
+  font-family: "Nunito", sans-serif;
+  color: #6D5D4B;
+  font-weight: 300;
+  line-height: 1.6; }
+
+/* line 1, /Users/nicola/AndroidStudioProjects/adv-css-course/Nexter/starter/sass/_sidebar.scss */
+.sidebar {
+  background-color: #c69963; }
+
+/* line 1, /Users/nicola/AndroidStudioProjects/adv-css-course/Nexter/starter/sass/_header.scss */
+.header {
+  background-color: #54483A; }
+
+/* line 1, /Users/nicola/AndroidStudioProjects/adv-css-course/Nexter/starter/sass/_realtors.scss */
+.realtors {
+  background-color: #101d2c; }
+
+/*# sourceMappingURL=main.css.map */
